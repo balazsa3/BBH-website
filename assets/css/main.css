@@ -170,6 +170,9 @@ h6 {
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
+.header:hover {
+  --background-color: rgba(0, 0, 0, 0.8);
+}
 
 /* Global Header on Scroll
 ------------------------------*/
@@ -1313,6 +1316,10 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+#portfolio-details {
+  padding: 60px 0;
+}
+
 .portfolio-details .portfolio-details-slider img {
   height: 100%;
 }
